@@ -1,0 +1,60 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql5-1719b35cee1-7254e69a21975dc5": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "MySQL - localhost",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
+				"type": "dev"
+			}
+		},
+		"mysql5-1719b36355f-1110ace6714ce445": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "MySQL - book_spring",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "book_spring",
+				"url": "jdbc:mysql://localhost:3306/book_spring",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
+				"type": "dev"
+			}
+		},
+		"mysql5-171b4e8d2df-16a76f1b18367705": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "MySQL - member_ajax",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "member_ajax",
+				"url": "jdbc:mysql://localhost:3306/member_ajax",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
+				"type": "dev",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
